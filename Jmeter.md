@@ -323,7 +323,7 @@ java中常见数据库字段类型与java.sql.Types的对应
 
 #### 吞吐量控制器
 
-![1603690427911](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603690427911.png)
+![1603690427911](https://raw.githubusercontent.com/loveLOGEN/jmeter/master/img/1603690427911.png)
 
 
 
@@ -333,10 +333,10 @@ java中常见数据库字段类型与java.sql.Types的对应
 
 <!-- 线程组中设置 在取样器错误后要执行的动作 ，不能设置为继续，否则断言不起作用 -->
 
-![1603697135108](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603697135108.png)
+![1603697135108](https://raw.githubusercontent.com/loveLOGEN/jmeter/master/img/1603697135108.png)
 
 <!-- 断言执行则请求成功的接口依然标红 -->
 
-![1603697223063](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603697223063.png)
+![1603697223063](https://raw.githubusercontent.com/loveLOGEN/jmeter/master/img/1603697223063.png)
 
-![1603697445603](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603697445603.png)
+![1603697445603](https://raw.githubusercontent.com/loveLOGEN/jmeter/master/img/1603697445603.png)
