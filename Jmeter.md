@@ -23,7 +23,7 @@ Apache JMeter是Apache组织开发的基于Java的压力测试工具。可以用
 
 **下载：**  [apache-jmeter-5.3.zip](https://mirrors.bfsu.edu.cn/apache//jmeter/binaries/apache-jmeter-5.3.zip) 
 
-![1600911990254](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1600911990254.png)
+![1600911990254](https://github.com/loveLOGEN/jmeter/tree/master/img/1600911990254.png)
 
 
 
