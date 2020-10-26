@@ -133,7 +133,7 @@ Apache JMeter是Apache组织开发的基于Java的压力测试工具。可以用
 
 # Jmeter使用
 
-<!-- 在线程组下创建的仅为当前线程组使用，在测试计划下创建的为所有线程组使用 -->
+<!-- 在线程组下创建的仅为当前线程组使用，在测试计划下创建的为所有线程组使用（父子关系） -->
 
 #### 创建线程组
 
@@ -309,12 +309,34 @@ java中常见数据库字段类型与java.sql.Types的对应
 
 
 
-# Jmeter元件switch控制器
+# Jmeter元件之逻辑控制器
+
+#### switch控制器
 
  Jmeter元件Switch控制器一般可以用在模拟多线程同时操作不同请求的测试场景。 
 
 ![1603677763793](https://raw.githubusercontent.com/loveLOGEN/jmeter/master/img/1603677763793.png)
 
-# Jmeter元件如果（if）控制器
+#### 如果（if）控制器
 
 ![1603682837965](https://raw.githubusercontent.com/loveLOGEN/jmeter/master/img/1603682837965.png)
+
+#### 吞吐量控制器
+
+![1603690427911](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603690427911.png)
+
+
+
+# Jmeter元件之断言
+
+#### 响应断言
+
+<!-- 线程组中设置 在取样器错误后要执行的动作 ，不能设置为继续，否则断言不起作用 -->
+
+![1603697135108](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603697135108.png)
+
+<!-- 断言执行则请求成功的接口依然标红 -->
+
+![1603697223063](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603697223063.png)
+
+![1603697445603](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603697445603.png)
