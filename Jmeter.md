@@ -340,3 +340,65 @@ java中常见数据库字段类型与java.sql.Types的对应
 ![1603697223063](https://raw.githubusercontent.com/loveLOGEN/jmeter/master/img/1603697223063.png)
 
 ![1603697445603](https://raw.githubusercontent.com/loveLOGEN/jmeter/master/img/1603697445603.png)
+
+
+
+# Jmeter之自动化测试
+
+#### 编写测试用例
+
+<!-- 不要直接修改文件的后缀名为csv，可以通过另存为或其他软件修改 -->
+
+![1603795163514](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603795163514.png)
+
+#### 用户定义的变量
+
+![1603795489607](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603795489607.png)
+
+![1603795550257](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603795550257.png)
+
+#### CSV数据文件设置
+
+![1603795613586](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603795613586.png)
+
+文件编码：默认不填即可。
+
+变量名称：指给CSV文件各列命名。<!-- 请注意 编写测试用例 图片中的第一行 -->
+
+忽略首行：true（不读取CSV文件的第一行，此时 变量名称 必须设置，如id,name,sex）;fasle（读取CSV文件首行为 变量名称 ，如 编写测试用例 图片中的第一行）。
+
+分隔符：与CSV文件的分隔符保持一致，文件中用”,“分隔，这里也写逗号（在这里我是直接由表格另存为CSV文件的，所以默认逗号即可）。
+
+是否允许带引号：true（变量值中有引号，此项须设置true，否则jmeter读取会以分隔符分隔，读取不到所有的变量值）。
+
+遇到文件结束符再次循环：true（继续从文件第一行开始读取） false（不再循环）。
+
+遇到文件结束符停止线程：true（停止线程，但当上一选项为true时，此选项不起作用） false（不停止）。
+
+线程共享模式：所有现场（所有线程， 计划中所有线程，假如说有线程1到线程n (n>1)，线程1取了一次值后，线程2取值时，取到的是csv文件中的下一行，即与线程1取的不是同一行 ）；当前线程组（ 假设有线程组A、线程组B，A组内有线程A1到线程An，线程组B内有线程B1到线程Bn。取之情况是：线程A1取到了第1行，线程A2取第2行，现在B1取第1行，线程B2取第2行 ）；当前线程（ 假设测试计划内有线程1到线程n (n>1)，则线程1取了第1行，线程2也取第1行 ）。
+
+#### http信息头管理器
+
+![1603797430514](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603797430514.png)
+
+#### HTTP请求
+
+![1603797567248](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603797567248.png)
+
+#### JSON提取器
+
+![1603797636825](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603797636825.png)
+
+#### 运行结果
+
+<!-- 这些信息都是从CSV文件或者我们自己配置再或者接口返回的 变量值 -->
+
+![1603797687318](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603797687318.png)
+
+
+
+# 阿里的Jmeter
+
+登录网址：https://account.aliyun.com/login/login.htm?oauth_callback=http%3A%2F%2Fpts.aliyun.com%2Fplatinum%2Findex.htm%3Fspm%3Da2c4g.11186623.2.20.2932592cfHyDyX
+
+使用介绍：https://help.aliyun.com/document_detail/91788.html?spm=a2c4g.11186623.2.19.44e63bf3vkRpqJ#multiTask4485
