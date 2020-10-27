@@ -349,17 +349,17 @@ java中常见数据库字段类型与java.sql.Types的对应
 
 <!-- 不要直接修改文件的后缀名为csv，可以通过另存为或其他软件修改 -->
 
-![1603795163514](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603795163514.png)
+![1603795163514](https://raw.githubusercontent.com/loveLOGEN/jmeter/master/img/1603795163514.png)
 
 #### 用户定义的变量
 
-![1603795489607](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603795489607.png)
+![1603795489607](https://raw.githubusercontent.com/loveLOGEN/jmeter/master/img/1603795489607.png)
 
-![1603795550257](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603795550257.png)
+![1603795550257](https://raw.githubusercontent.com/loveLOGEN/jmeter/master/img/1603795550257.png)
 
 #### CSV数据文件设置
 
-![1603795613586](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603795613586.png)
+![1603795613586](https://raw.githubusercontent.com/loveLOGEN/jmeter/master/img/1603795613586.png)
 
 文件编码：默认不填即可。
 
@@ -379,21 +379,21 @@ java中常见数据库字段类型与java.sql.Types的对应
 
 #### http信息头管理器
 
-![1603797430514](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603797430514.png)
+![1603797430514](https://raw.githubusercontent.com/loveLOGEN/jmeter/master/img/1603797430514.png)
 
 #### HTTP请求
 
-![1603797567248](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603797567248.png)
+![1603797567248](https://raw.githubusercontent.com/loveLOGEN/jmeter/master/img/1603797567248.png)
 
 #### JSON提取器
 
-![1603797636825](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603797636825.png)
+![1603797636825](https://raw.githubusercontent.com/loveLOGEN/jmeter/master/img/1603797636825.png)
 
 #### 运行结果
 
 <!-- 这些信息都是从CSV文件或者我们自己配置再或者接口返回的 变量值 -->
 
-![1603797687318](C:\Users\dell\Desktop\log\线上log\Jmeter\img\1603797687318.png)
+![1603797687318](https://raw.githubusercontent.com/loveLOGEN/jmeter/master/img/1603797687318.png)
 
 
 
