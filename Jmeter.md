@@ -402,3 +402,7 @@ java中常见数据库字段类型与java.sql.Types的对应
 登录网址：https://account.aliyun.com/login/login.htm?oauth_callback=http%3A%2F%2Fpts.aliyun.com%2Fplatinum%2Findex.htm%3Fspm%3Da2c4g.11186623.2.20.2932592cfHyDyX
 
 使用介绍：https://help.aliyun.com/document_detail/91788.html?spm=a2c4g.11186623.2.19.44e63bf3vkRpqJ#multiTask4485
+
+# Jmeter测试完整篇
+
+https://blog.csdn.net/weixin_40881502/article/details/105481771?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param
